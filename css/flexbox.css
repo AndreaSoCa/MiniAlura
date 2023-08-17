@@ -47,6 +47,25 @@
     width: 23%
 }
 
+.videoSobre .container {
+    display: flex;
+}
+
+.videoSobre-sobre {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.videoSobre-video {
+    flex-grow: 2;
+    flex-shrink: 2;
+}
+
+.videoSobre-sobre-list { 
+    flex-grow: 2;
+}
+
 /* Responsive */
 @media (max-width:768px) {
 
@@ -90,6 +109,10 @@
 
     .rodapePrincipal-contatoForm-fieldset {
         justify-content: center;
+    }
+
+    .videoSobre .container {
+        flex-direction: column;
     }
 
 }
